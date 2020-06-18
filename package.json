@@ -22,7 +22,7 @@
     "gulp-brotli": "^1.2.2",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.2.0",
-    "gulp-htmlmin": "^5.0.1",
+    "gulp-html-minifier-terser": "^6.0.0",
     "gulp-imagemin": "^6.1.1",
     "gulp-inject-partials": "^1.0.5",
     "gulp-sitemap": "^7.6.0",

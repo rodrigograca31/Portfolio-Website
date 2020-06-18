@@ -1,6 +1,6 @@
 // including plugins
 const gulp = require('gulp');
-const htmlmin = require('gulp-htmlmin');
+const htmlmin = require("gulp-html-minifier-terser");
 const runSequence = require('run-sequence');
 const cleanCSS = require('gulp-clean-css');
 const terser = require('gulp-terser');
