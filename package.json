@@ -18,7 +18,7 @@
   "homepage": "https://github.com/rodrigograca31/portfolio-website#readme",
   "dependencies": {
     "delete-empty": "^2.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-brotli": "^1.2.2",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.2.0",
@@ -27,6 +27,6 @@
     "gulp-inject-partials": "^1.0.5",
     "gulp-sitemap": "^7.6.0",
     "gulp-terser": "^1.2.0",
-    "run-sequence": "^2.2.1"
+    "gulp-srcset": "^3.0.0"
   }
 }
