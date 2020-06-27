@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import "./fontawesome-all.min.css";
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import 'fontawesome-all.min.css';
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -3229,17 +3228,19 @@ body.is-menu-visible #menu .inner {
   visibility: visible;
 }
 
-/*# sourceMappingURL=main.css.map */
-
 .tech img {
   max-width: 100%;
   max-height: 50px;
 }
+
 .tech .col-1 {
   display: flex;
   align-items: center;
   justify-items: center;
 }
+
 .copyright li {
-	color: white !important;
+  color: white !important;
 }
+
+/*# sourceMappingURL=main.css.map */

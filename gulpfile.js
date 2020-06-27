@@ -10,7 +10,6 @@ const imagemin = require("gulp-imagemin");
 const sitemap = require("gulp-sitemap");
 const brotli = require("gulp-brotli");
 const deleteEmpty = require("delete-empty");
-const srcset = require("gulp-srcset");
 
 const folder = "./";
 const siteUrl = "https://portfolio.rodrigograca.com/";
@@ -19,26 +18,6 @@ const siteUrl = "https://portfolio.rodrigograca.com/";
 // npm install gulp browser-sync gulp-minify-html gulp-minify-css gulp-uglify run-sequence gulp-clean gulp-inject-partials gulp-sitemap gulp-imagemin --save
 
 // https://julienrenaux.fr/2014/05/25/introduction-to-gulp-js-with-practical-examples/
-
-// gulp.task("images", () =>
-// 	gulp
-// 		.src("images/*.{jpg,png}")
-// 		.pipe(
-// 			srcset(
-// 				[
-// 					{
-// 						match: "(min-width: 3000px)",
-// 						width: [1920, 1280, 1024, 860, 540, 320],
-// 						format: ["jpg", "webp"],
-// 					},
-// 				],
-// 				{
-// 					skipOptimization: true,
-// 				}
-// 			)
-// 		)
-// 		.pipe(gulp.dest("dist"))
-// );
 
 gulp.task("clean", function () {
 	return gulp.src("./dist/", { read: false }).pipe(clean());
@@ -166,7 +145,6 @@ gulp.task(
 	gulp.series(
 		"clean",
 		"copyall",
-		// "images",
 		"sitemap",
 		gulp.parallel("minify-html", "minify-css", "minify-js", "minify-imgs"),
 		"brotli",

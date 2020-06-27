@@ -26,7 +26,6 @@
     "gulp-imagemin": "^6.1.1",
     "gulp-inject-partials": "^1.0.5",
     "gulp-sitemap": "^7.6.0",
-    "gulp-terser": "^1.2.0",
-    "gulp-srcset": "^3.0.0"
+    "gulp-terser": "^1.2.0"
   }
 }

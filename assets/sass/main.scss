@@ -73,3 +73,18 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
+
+
+
+.tech img {
+  max-width: 100%;
+  max-height: 50px;
+}
+.tech .col-1 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.copyright li {
+	color: white !important;
+}
