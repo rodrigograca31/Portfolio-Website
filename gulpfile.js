@@ -109,7 +109,7 @@ gulp.task("minify-imgs", function () {
 
 gulp.task("sitemap", async function () {
 	gulp
-		.src(["index.html", "./project/**/**.html"], {
+		.src(["index.html", "./pro*/**/index.html"], {
 			read: false,
 		})
 		.pipe(
