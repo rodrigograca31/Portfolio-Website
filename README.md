@@ -11,3 +11,5 @@ rsync .......
 (scp command omitted because even though I used a ssh key it would reveal my ssh username)
 
 (use rsync instead, its faster)
+
+`rsync_portfolio` alias
