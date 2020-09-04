@@ -20,7 +20,7 @@ const siteUrl = "https://portfolio.rodrigograca.com/";
 // https://julienrenaux.fr/2014/05/25/introduction-to-gulp-js-with-practical-examples/
 
 gulp.task("clean", function () {
-	return gulp.src("./dist/", { read: false }).pipe(clean());
+	return gulp.src("./dist/", { read: false, allowEmpty: true }).pipe(clean());
 });
 
 gulp.task("copyall", function () {
