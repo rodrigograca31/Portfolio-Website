@@ -3,7 +3,7 @@
 ```bash
 sass assets/sass/main.scss assets/css/main.css
 gulp default
-www
+cd dist && www
 scp ........
 rsync .......
 ```
@@ -13,3 +13,6 @@ rsync .......
 (use rsync instead, its faster)
 
 `rsync_portfolio` alias
+
+Logos are from:
+https://worldvectorlogo.com/
